@@ -1,0 +1,42 @@
+/* newarrival.css */
+
+.new-arrival-container {
+    padding: 20px;
+  }
+  
+  .new-arrival-container h2 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .new-arrival-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .new-arrival-item {
+    position: relative;
+    width: 200px;
+  }
+  
+  .new-arrival-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .new-badge {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: #f00;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  .new-arrival-item.highlight {
+    border: 2px solid #f00;
+  }
+  

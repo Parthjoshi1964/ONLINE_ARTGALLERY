@@ -1,0 +1,48 @@
+/* Style the form container */
+.payment-form {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f5f5f5; /* Light gray background */
+  }
+  
+  /* Style the form labels */
+  .payment-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333; /* Dark gray text */
+  }
+  
+  /* Style the form inputs */
+  .payment-form input[type="text"],
+  .payment-form input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    background-color: #fff; /* White background for inputs */
+  }
+  
+  /* Style the submit button */
+  .payment-form button[type="submit"] {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .payment-form button[type="submit"]:hover {
+    background-color: #45A049; /* Green hover */
+  }
+  
+  /* Style the total bill section */
