@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/ONLINE_ARTGALLERY/static/css/main.975fe3c0.css",
+    "main.js": "/ONLINE_ARTGALLERY/static/js/main.397c0ae2.js",
+    "static/media/photo.jpg": "/ONLINE_ARTGALLERY/static/media/photo.723dbaaaaa6c2aa09873.jpg",
+    "static/media/jesus.jpg": "/ONLINE_ARTGALLERY/static/media/jesus.40c9f890a1e36679a9e6.jpg",
+    "static/media/supper.jpg": "/ONLINE_ARTGALLERY/static/media/supper.5bff999fe39b0ff9c3f8.jpg",
+    "static/media/garden.jpg": "/ONLINE_ARTGALLERY/static/media/garden.0ecf6e650ddd4aacedf5.jpg",
+    "static/media/tower.jpg": "/ONLINE_ARTGALLERY/static/media/tower.a908a7fc49be1bdb4d4f.jpg",
+    "static/media/adam.jpg": "/ONLINE_ARTGALLERY/static/media/adam.f9696ae9caccc5d2502f.jpg",
+    "static/media/monalisa.jpg": "/ONLINE_ARTGALLERY/static/media/monalisa.6607afded14bc70fda11.jpg",
+    "static/media/logo.png": "/ONLINE_ARTGALLERY/static/media/logo.65a7460ce16710e297c5.png",
+    "index.html": "/ONLINE_ARTGALLERY/index.html",
+    "main.975fe3c0.css.map": "/ONLINE_ARTGALLERY/static/css/main.975fe3c0.css.map",
+    "main.397c0ae2.js.map": "/ONLINE_ARTGALLERY/static/js/main.397c0ae2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.975fe3c0.css",
+    "static/js/main.397c0ae2.js"
+  ]
+}
