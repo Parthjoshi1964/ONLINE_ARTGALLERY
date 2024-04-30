@@ -12,12 +12,11 @@ import myImage5 from './shop/tower.jpg';
 function Newarrivalnotification() {
   const [selectedFile, setSelectedFile] = useState(null);
   const [images, setImages] = useState([
-    { src: myImage, alt: "Adam", artist: "Leonardo da Vinci", date: "1503 to 1519", where: "Louvre Museum (Paris)", time: new Date(), price: 25 },
-    { src: myImage1, alt: "Garden", artist: "Pablo Picasso", date: "1937", where: "Museo Reina Sofía (Madrid)", time: new Date(), price: 30 },
-    { src: myImage2, alt: "Jesus", artist: "Diego Velázquez", date: "1656", where: "Museo del Prado (Madrid)", time: new Date(), price: 20 },
-    { src: myImage3, alt: "Monalisa", artist: "Vincent van Gogh", date: "1889", where: "Museum of Modern Art (New York City)", time: new Date(), price: 15 },
-    { src: myImage4, alt: "Supper", artist: "Leonardo da Vinci", date: "1503 to 1519", where: "Louvre Museum (Paris)", time: new Date(), price: 25 },
-    { src: myImage5, alt: "Tower", artist: "Leonardo da Vinci", date: "1503 to 1519", where: "Louvre Museum (Paris)", time: new Date(), price: 25 },
+    { src: myImage, alt: "The Creation of Adam", artist: "Michelangelo Buonarroti", date: " 1511", where: "  Sistine Chapel", time: new Date(), price: 1000 },
+    { src: myImage1, alt: "Garden Of Earthly Delights ",artist: "Hieronymus Bosch", date: " 1490-1510", where: "Museo del Prado, Madrid(Madrid)", time: new Date(), price: 1500 },
+    { src: myImage3, alt: "Monalisa", artist: "	Leonardo da Vinci", date: "1503–1506", where: "	Louvre, Paris", time: new Date(), price: 3500 },
+    { src: myImage4, alt: "The Last Supper", artist: "Leonardo da Vinci", date: "1495–1498", where: "	Santa Maria delle Grazie, Milan, Italy", time: new Date(), price: 3500 },
+    { src: myImage5, alt: "Tower of Babel", artist: " Pieter Bruegel the Elder", date: "1563", where: "	Babylon", time: new Date(), price: 4000 },
   ]);
   const [deletedImages, setDeletedImages] = useState([]);
   const [cartItems, setCartItems] = useState([]);

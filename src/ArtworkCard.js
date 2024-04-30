@@ -76,12 +76,11 @@ const App = () => {
       <h1>Online Store</h1>
       <div>
         <h2>Products</h2>
-        <Product id={1} name="Adam" price={10} onAddToCart={addToCart} />
-        <Product id={2} name="Garden" price={15} onAddToCart={addToCart} />
-        <Product id={3} name="Jesus" price={20} onAddToCart={addToCart} />
-        <Product id={4} name="Monalisa" price={35} onAddToCart={addToCart} />
-        <Product id={5} name="Supper" price={65} onAddToCart={addToCart} />
-        <Product id={6} name="Tower" price={40} onAddToCart={addToCart} />
+        <Product id={1} name="The Creation of Adam" price={1000} onAddToCart={addToCart} />
+        <Product id={2} name="Garden Of Earthly Delights " price={1500} onAddToCart={addToCart} />
+        <Product id={4} name="Monalisa" price={3500} onAddToCart={addToCart} />
+        <Product id={5} name="The Last Supper" price={3500} onAddToCart={addToCart} />
+        <Product id={6} name="Tower of Babel" price={4000} onAddToCart={addToCart} />
       </div>
       <Cart cartItems={cartItems} />
     </div>
